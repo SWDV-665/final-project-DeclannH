@@ -1,0 +1,7 @@
+{
+  "name": "Parental Support Network",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

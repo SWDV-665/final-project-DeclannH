@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pediatrician 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-list>
+
+  <ion-item *ngFor="let item of items; let i=index;">
+    <ion-item> 
+        {{item}}
+    </ion-item>
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="update">Edit</ion-button>
+
+
+  </ion-item>
+
+</ion-list>
+
+</ion-content>
