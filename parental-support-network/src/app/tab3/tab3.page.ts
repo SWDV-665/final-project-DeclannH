@@ -22,7 +22,6 @@ export class Tab3Page {
   async update() {
     let alert = await this.alertCtrl.create({
       header: 'Update Pediatrician?',
-      message: 'Type in your task to update.',
       inputs: [{ name: 'pediatrician', placeholder: 'Pediatrician' },
                  {name: "practice", placeholder: 'practice'},
                 {name: 'phone', placeholder: 'Phone Number'}],
